@@ -38,7 +38,7 @@ import Link from 'next/link'
               Systems
             </Link>
             <button className="btn btn-outline btn-secondary">
-              Contanct us
+              Contact us
             </button>
           </nav>
         </div>

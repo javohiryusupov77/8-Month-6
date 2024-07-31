@@ -4,11 +4,11 @@ const MainContent = () => {
   return (
     <main className="flex flex-col items-center justify-center min-h-[calc(100vh-80px)] text-center">
       <h1 className="my-16 mb-20 text-6xl w-[500px] h-[50px] text-center">
-        Become a better business with us.
+        Become a better business with us
       </h1>
       <p className="mb-4 w-[450px] h-[50px]">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam turpis
-        tortor, ultricies ut justo eu.
+        tortor, ultricies ut justo eu
       </p>
       <button className="btn btn-outline btn-secondary mb-16">
         Our business
@@ -26,7 +26,7 @@ const MainContent = () => {
         <div className=" h-[300px] flex flex-col items-center justify-start">
           <p className="text-indigo-500">MAY 2021</p>
           <h4 style={{ width: "200px" }}>
-            Agile focused business services and more.
+            Agile focused business services and more
           </h4>
         </div>
         <img
@@ -39,7 +39,7 @@ const MainContent = () => {
         <div className=" h-[300px] flex flex-col items-center justify-start">
           <p className="text-indigo-500">JUN 2021</p>
           <h4 style={{ width: "200px" }}>
-            Agile focused business services and more.
+            Agile focused business services and more
           </h4>
         </div>
         <img
@@ -52,7 +52,7 @@ const MainContent = () => {
         <div className=" h-[300px] flex flex-col items-center justify-start">
           <p className="text-indigo-500">JUL 2021</p>
           <h4 style={{ width: "200px" }}>
-            Agile focused business services and more.
+            Agile focused business services and more
           </h4>
         </div>
         <img

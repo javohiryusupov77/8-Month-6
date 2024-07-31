@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 
-export default function TimerMsg({ time }: { time: number }) {
+export default function Notfound({ time }: { time: number }) {
   const [remainedTime, setRemainedTime] = useState(time);
   const router = useRouter();
 
