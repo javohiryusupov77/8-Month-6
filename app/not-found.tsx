@@ -11,7 +11,7 @@ const NotFound = () => {
           Sorry, the page you're looking for doesn't exist.
         </p>
 
-        <Notfound time={3} />
+        <Notfound time={5} />
       </div>
     </div>
   );
