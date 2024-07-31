@@ -3,7 +3,7 @@ import React from "react";
 const MainContent = () => {
   return (
     <main className="flex flex-col items-center justify-center min-h-[calc(100vh-80px)] text-center">
-      <h1 className="my-16 mb-16 text-4xl w-[300px] h-[50px] text-center">
+      <h1 className="my-16 mb-20 text-6xl w-[500px] h-[50px] text-center">
         Become a better business with us.
       </h1>
       <p className="mb-4 w-[450px] h-[50px]">

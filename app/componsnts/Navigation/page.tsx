@@ -17,13 +17,25 @@ import Link from 'next/link'
           </div>
           <nav className="flex items-center space-x-4">
             <Link className="hover:text-gray-500 transition-colors" href={"/"}>
-              home
+              Home
             </Link>
             <Link
               className="hover:text-gray-500 transition-colors"
               href={"/about"}
             >
-              about
+              About
+            </Link>
+            <Link
+              className="hover:text-gray-500 transition-colors"
+              href={"/*"}
+            >
+              Services
+            </Link>
+            <Link
+              className="hover:text-gray-500 transition-colors"
+              href={"/*"}
+            >
+              Systems
             </Link>
             <button className="btn btn-outline btn-secondary">
               Contanct us
