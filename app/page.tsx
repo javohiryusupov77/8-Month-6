@@ -1,7 +1,5 @@
-import Link from "next/link";
 import Navigation from "./componsnts/Navigation/page";
 import Footer from "./componsnts/footer/footer";
-import { Main } from "next/document";
 import MainContent from "./componsnts/MainContent/page";
 
 export default function Home() {
