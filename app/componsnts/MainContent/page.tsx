@@ -20,7 +20,7 @@ const MainContent = () => {
         />
       </div>
       <h1 className="my-16 mb-16 text-4xl w-[600px] h-[50px] text-center">
-        Here is what’s happening in the world of talk business.
+        Here is whats happening in the world of talk business.
       </h1>
       <div className="flex items-center justify-around mb-16">
         <div className=" h-[300px] flex flex-col items-center justify-start">
