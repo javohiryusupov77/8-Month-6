@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Carusel from "../carusel/page";
 
 const MainContent = () => {
   return (
@@ -15,16 +16,32 @@ const MainContent = () => {
         Our business
       </button>
       <div className="w-full">
-        <Image
-          src="/imageofbg.svg"
-          alt="background"
-          className="w-full h-auto"
-          width={100}
-          height={100}
-        />
+        <Carusel>
+          <Image
+            src="/imageofbg.svg"
+            alt="background"
+            className="w-full h-auto"
+            width={100}
+            height={100}
+          />
+          <Image
+            src="/carusel.svg"
+            alt="background"
+            className="w-full h-auto"
+            width={100}
+            height={100}
+          />
+          <Image
+            src="/carusel2.svg"
+            alt="background"
+            className="w-full h-auto"
+            width={100}
+            height={100}
+          />
+        </Carusel>
       </div>
       <h1 className="my-8 text-2xl md:text-4xl w-full md:w-[600px]">
-        Here is whats happening in the world of talk business
+        Here is what's happening in the world of talk business
       </h1>
       <div className="flex flex-col md:flex-row items-center justify-around mb-8 w-full">
         <div className="flex flex-col items-center justify-start mb-4 md:mb-0">
