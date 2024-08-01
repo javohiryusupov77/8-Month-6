@@ -7,7 +7,7 @@ interface CaruselProps {
     children: ReactNode;
 }
 
-function Carusel({ children: slides }: CaruselProps) {
+ export default function Carusel({ children: slides }: CaruselProps) {
   const [curr, setCurr] = useState(0);
 
   const prev = () => {
@@ -35,4 +35,3 @@ function Carusel({ children: slides }: CaruselProps) {
   );
 }
 
-export default Carusel;
