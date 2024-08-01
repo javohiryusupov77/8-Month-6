@@ -1,4 +1,4 @@
-import Notfound from "@/app/componsnts/Notfound/notfound"; 
+import Notfound from "@/app/components/Notfound/notfound"; 
 
 const NotFound = () => {
   return (

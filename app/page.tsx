@@ -1,6 +1,6 @@
-import Navigation from "./componsnts/Navigation/page";
-import Footer from "./componsnts/footer/footer";
-import MainContent from "./componsnts/MainContent/page";
+import Navigation from "./components/Navigation/page";
+import Footer from "./components/footer/footer";
+import MainContent from "./components/MainContent/page";
 
 export default function Home() {
   return (

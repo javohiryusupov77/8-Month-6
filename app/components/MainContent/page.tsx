@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Carusel from "../carusel/page";
+import Carusel from "@/app/components/carusel/page";
 
 const MainContent = () => {
   return (
