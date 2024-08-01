@@ -21,7 +21,7 @@ const MainContent = () => {
         />
       </div>
       <h1 className="my-8 text-2xl md:text-4xl w-full md:w-[600px]">
-        Here is what's happening in the world of talk business.
+        Here is whats happening in the world of talk business
       </h1>
       <div className="flex flex-col md:flex-row items-center justify-around mb-8 w-full">
         <div className="flex flex-col items-center justify-start mb-4 md:mb-0">

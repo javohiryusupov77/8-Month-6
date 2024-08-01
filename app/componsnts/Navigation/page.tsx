@@ -1,19 +1,22 @@
 'use client'
 import React, { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 function Navigation() {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState<boolean>(false);
 
   return (
     <header className="bg-white text-black py-4">
       <div className="container mx-auto flex justify-between items-center px-4 md:px-0">
         <div className="flex items-center space-x-2.5">
-          <img
+          <Image 
             src="/imageLogo.svg"
             alt="logo"
             className="w-[40px] h-[40px]"
-          />
+            width={40}
+            height={40}
+            />
           <h1 className="text-xl font-bold">
             <span className="text-indigo-600">Talk</span> business
           </h1>
