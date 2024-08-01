@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const MainContent = () => {
   return (
@@ -14,10 +15,12 @@ const MainContent = () => {
         Our business
       </button>
       <div className="w-full">
-        <img
+        <Image
           src="/imageofbg.svg"
           alt="background"
           className="w-full h-auto"
+          width={100}
+          height={100}
         />
       </div>
       <h1 className="my-8 text-2xl md:text-4xl w-full md:w-[600px]">
@@ -30,10 +33,12 @@ const MainContent = () => {
             Agile focused business services and more
           </h4>
         </div>
-        <img
+        <Image
           className="w-full md:w-auto md:h-[300px]"
           src="image1.svg"
           alt="image"
+          width={100}
+          height={100}
         />
       </div>
       <div className="flex flex-col md:flex-row items-center justify-around mb-8 w-full">
@@ -43,10 +48,12 @@ const MainContent = () => {
             Agile focused business services and more
           </h4>
         </div>
-        <img
+        <Image
           className="w-full md:w-auto md:h-[300px]"
           src="image2.svg"
           alt="image"
+          width={100}
+          height={100}
         />
       </div>
       <div className="flex flex-col md:flex-row items-center justify-around mb-8 w-full">
@@ -56,10 +63,12 @@ const MainContent = () => {
             Agile focused business services and more
           </h4>
         </div>
-        <img
+        <Image
           className="w-full md:w-auto md:h-[300px]"
           src="image3.svg"
           alt="image"
+          width={100}
+          height={100}
         />
       </div>
     </main>

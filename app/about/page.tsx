@@ -8,10 +8,12 @@ export default function Page() {
       <header className="bg-white text-black py-4">
         <div className="container mx-auto flex flex-col md:flex-row justify-around items-center space-y-4 md:space-y-0">
           <div className="flex items-center justify-center space-x-2.5">
-            <img
+            <Image
               src="/imageLogo.svg"
               alt="logo"
               className="w-[40px] h-[40px]"
+              width={40}
+              height={40}
             />
             <h1 className="text-xl font-bold">
               <span style={{ color: "indigo" }}>Talk</span> business
@@ -55,9 +57,11 @@ export default function Page() {
           <p className="px-4 md:px-[20rem] text-justify">
             Lorem ipsum dolor sit amet consectetur adipisicing elit Perspiciatis quae officiis autem numquam cumque provident ipsa At illo autem repudiandae aut eum ipsam voluptatum magnam eos dolorem quam soluta eius vitae sunt placeat quod ab quis nesciunt nostrum eaque nihil quas cumque aliquam Quaerat eligendi facilis reiciendis quae qui nemo consequuntur voluptas nobis aliquam cupiditate molestias corporis suscipit ipsum dolores itaque Possimus minima vel aperiam maxime natus cupiditate magni aut praesentium voluptas alias quaerat nemo asperiores molestias Deserunt recusandae dicta rem harum quod reiciendis mollitia asperiores fugit animi blanditiis Qui iure vero pariatur quaerat expedita nemo nam autem repellat impedit
           </p>
-          <img
+          <Image
             className="w-full"
             src="/imageofbg2.svg"
+            width={100}
+            height={100}
             alt="working on computer"
           />
           <p className="px-4 md:px-[20rem] text-justify my-4">
@@ -73,10 +77,10 @@ export default function Page() {
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center">
             <div className="max-w-full md:max-w-[575px] mb-4 md:mb-0">
               <h3 className="text-4xl md:text-[58px] font-semibold leading-snug md:leading-[70px] text-[#f2f2f2] mb-2">
-                Let’s start working to build a brighter future.
+                Lets start working to build a brighter future
               </h3>
               <p className="text-[16px] leading-[28px] text-[#f2f2f2] mb-8 md:mb-0">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Lorem ipsum dolor sit amet consectetur adipiscing elit
                 Elementum posuere eget elementum vulputate elementum viverra
                 sapien tellus aenean.
               </p>
