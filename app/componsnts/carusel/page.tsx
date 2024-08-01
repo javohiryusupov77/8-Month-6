@@ -6,7 +6,7 @@ interface Caruselprops {
     children:ReactNode[]
 }
 
-export default function Carusel({ children:slides}:Caruselprops) {
+ function Carusel({ children:slides}:Caruselprops) {
   const [curr, setCurr] = useState(0);
 
   const prev = () => {
@@ -30,4 +30,5 @@ export default function Carusel({ children:slides}:Caruselprops) {
       </div>
     </div>
   );
-}
+};
+export default Carusel;
