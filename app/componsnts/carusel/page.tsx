@@ -1,9 +1,12 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { ReactNode, useState } from 'react';
 import { ChevronLeft, ChevronRight } from 'react-feather';
+interface Caruselprops {
+    children:ReactNode[]
+}
 
-export default function Carusel({ children:slides }) {
+export default function Carusel({ children:slides}:Caruselprops) {
   const [curr, setCurr] = useState(0);
 
   const prev = () => {
@@ -18,10 +21,10 @@ export default function Carusel({ children:slides }) {
     <div className='overflow-hidden relative'>
       <div style={{transform:`translateX(-${curr * 100}%)`}} className='flex trnsition-transform ease-out duration-500'>{slides}</div>
       <div className='absolute inset-0 flex items-center justify-between p'>
-        <button onClick={prev} className='p-1 rounded-full shadow bg-white-80 text-grey-800 hover:bg-white'>
+        <button onClick={prev} className='p-1 rounded-full shadow bg-white text-black-800 hover:bg-grey-80'>
           <ChevronLeft size={40} />
         </button>
-        <button onClick={next} className='p-1 rounded-full shadow bg-white-80 text-grey-800 hover:bg-white'>
+        <button onClick={next} className='p-1 rounded-full shadow bg-white text-black-800 hover:bg-grey-80'>
           <ChevronRight size={40} />
         </button>
       </div>
